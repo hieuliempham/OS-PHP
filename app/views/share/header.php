@@ -27,10 +27,13 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Sản Phẩm</a>
+                        <a class="nav-link btn btn-secondary" href="#">Sản Phẩm</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Liên Hệ</a>
+                        <a class="nav-link btn btn-secondary" href="#">Liên Hệ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-secondary" href="/chieu5/product/addProduct">Thêm sản phẩm</a>
                     </li>
                 </ul>
             </div>

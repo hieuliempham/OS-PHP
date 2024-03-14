@@ -7,7 +7,11 @@ class ProductController {
         $product = new ProductModel($db);
         $stmt = $product->readAll();
 
-        include_once 'app/views/product_list.php';
+        include_once 'app/views/products/product_list.php';
+    }
+
+    public function add($id) {
+        include_once 'app/views/products/create.php';
     }
 
     public function addProduct() {
@@ -50,7 +54,7 @@ class ProductController {
             }
         } else {
             // Hiển thị biểu mẫu thêm sản phẩm
-            include_once 'app/views/product_list.php';
+            include_once 'app/views/products/product_list.php';
         }
     }
     
@@ -70,7 +74,7 @@ class ProductController {
             // Lấy ID của sản phẩm cần cập nhật
             $id = $_POST['id'];
     
-            include_once "app/views/update_product_form.php";
+            include_once "app/views/products/update_product_form.php";
             exit();
         }
     }
