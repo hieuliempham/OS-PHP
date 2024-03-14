@@ -33,7 +33,7 @@
                         <a class="nav-link btn btn-secondary" href="#">Liên Hệ</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link btn btn-secondary" href="/chieu5/product/addProduct">Thêm sản phẩm</a>
+                        <a class="nav-link btn btn-secondary" href="/MVC/product/addProduct">Thêm sản phẩm</a>
                     </li>
                 </ul>
             </div>
