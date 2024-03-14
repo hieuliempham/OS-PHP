@@ -1,11 +1,10 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Phạm Hiếu Liêm</title>
+    <title>Web bán hàng</title>
 
     <!-- Sử dụng Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
@@ -27,13 +26,13 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link btn btn-secondary" href="#">Sản Phẩm</a>
+                        <a class="nav-link text-danger" href="#">Sản Phẩm</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link btn btn-secondary" href="#">Liên Hệ</a>
+                        <a class="nav-link text-danger" href="#">Liên Hệ</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link btn btn-secondary" href="/MVC/product/addProduct">Thêm sản phẩm</a>
+                        <a class="nav-link btn btn-secondary" href="/mvc/product/add">Thêm sản phẩm</a>
                     </li>
                 </ul>
             </div>
@@ -44,4 +43,3 @@
         <div class="row">
             <!-- Danh sách sản phẩm -->
             <div class="col-md-9">
-                <!-- Hiển thị sản phẩm bằng dạng dòng sản phẩm sử dụng Bootstrap Row và Col -->
