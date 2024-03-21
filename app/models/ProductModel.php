@@ -58,4 +58,14 @@ class ProductModel {
 
         return false;
     }
+    public function getProductById($id)
+    {
+        $query = "SELECT * FROM ". $this->table_name." where id = $id";
+
+        $stmt = $this->conn->prepare($query);
+        $stmt->execute();
+        $result = $stmt->fetch(PDO::FETCH_OBJ);
+        return $result;
+    }
+    
 }

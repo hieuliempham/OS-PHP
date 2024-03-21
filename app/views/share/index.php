@@ -7,7 +7,9 @@ include_once 'app/views/share/header.php'
 <?php while ($row = $products->fetch(PDO::FETCH_ASSOC)) : ?>
     <div class="col">
         <div class="card">
-            <img src="<?=$row['thumnail'];?>" class="card-img-top" alt="...">
+            <a href="/mvc/product/detail/<?=$row['id']?>">
+                <img src="<?=$row['thumnail'];?>" class="card-img-top" alt="...">
+            </a>
             <div class="card-body">
                 <h5 class="card-title"><?=$row['name']?></h5>
                 <p class="card-text"><?=$row['description']?></p>

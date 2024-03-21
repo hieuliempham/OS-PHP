@@ -10,6 +10,7 @@
         <li>
             <?php echo $row['name'] . " - " . $row['description'] . " - " . $row['price']; ?>
         </li>
+        
     <?php endwhile; ?>
     </ul>
 </body>
