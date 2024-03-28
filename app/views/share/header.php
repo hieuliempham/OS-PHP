@@ -26,7 +26,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link text-danger" href="#">Sản Phẩm</a>
+                        <a class="nav-link text-danger" href="/mvc">Sản Phẩm</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-danger" href="#">Liên Hệ</a>
@@ -34,6 +34,9 @@
                     <li class="nav-item">
                         <a class="nav-link btn btn-secondary" href="/mvc/product/add">Thêm sản phẩm</a>
                     </li>
+                    <?php
+                        include_once("app/views/share/authentication.php");
+                    ?>
                 </ul>
             </div>
         </div>

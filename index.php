@@ -2,7 +2,10 @@
 require_once 'config/database.php';
 require_once 'app/controllers/ProductController.php';
 require_once 'app/models/ProductModel.php';
+require_once 'app/models/AccountModel.php';
 // Yêu cầu thêm các file cần thiết khác
+
+session_start();
 
 $url = $_GET['url'] ?? '';
 $url = rtrim($url, '/');
